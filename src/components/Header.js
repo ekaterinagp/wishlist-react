@@ -84,7 +84,7 @@ export default function Header() {
             <>
               <NavItem>
                 <NavLink
-                  to="/register"
+                  to={`${process.env.PUBLIC_URL}/register`}
                   activeClassName="active"
                   tag={RRNavLink}
                   onClick={register}
@@ -94,7 +94,7 @@ export default function Header() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  to="/login"
+                  to={`${process.env.PUBLIC_URL}/login`}
                   activeClassName="active"
                   tag={RRNavLink}
                   onClick={login}

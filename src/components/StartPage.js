@@ -6,7 +6,7 @@ import { useHistory, BrowserRouter, Link } from "react-router-dom";
 
 export default function StartPage() {
   const history = useHistory();
-  const register = () => history.push("/register");
+  const register = () => history.push(`${process.env.PUBLIC_URL}/register`);
   const [advice, setAdvice] = useState(
     "If you've nothing nice to say, say nothing."
   );

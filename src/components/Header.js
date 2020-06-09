@@ -37,15 +37,15 @@ export default function Header() {
     checkUserLoggedIn();
   }, []);
 
-  const register = () => history.push("/register");
+  const register = () => history.push(`${process.env.PUBLIC_URL}/register`);
   // const profile = () => history.push("/profile");
-  const login = () => history.push("/login");
+  const login = () => history.push(`${process.env.PUBLIC_URL}/login`);
 
-  const home = () => history.push("/home");
-  const startpage = () => history.push("/");
+  const home = () => history.push(`${process.env.PUBLIC_URL}/home`);
+  const startpage = () => history.push(`${process.env.PUBLIC_URL}/`);
 
   const goOut = () => {
-    history.push("/startpage");
+    history.push(`${process.env.PUBLIC_URL}/startpage`);
   };
 
   const logOut = () => {

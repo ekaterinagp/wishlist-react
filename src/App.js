@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Router, Switch, Route } from "react-router-dom";
 // import Upload from "./components/Upload";
 import Header from "./components/Header";
 import StartPage from "./components/StartPage";
@@ -40,7 +40,7 @@ export default function App() {
   }, []);
   return (
     <>
-      <BrowserRouter basename={"/wishlist-react"}>
+      <Router basename={"/wishlist-react"}>
         <Switch>
           {loggedIn ? (
             <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
@@ -72,7 +72,7 @@ export default function App() {
             component={SingleWishList}
           />
         </Switch>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }

@@ -164,7 +164,7 @@ export default function Home() {
                         </div>
                         <div className="button-read">
                           {loggedIn ? (
-                            <Link to={`${process.env.PUBLIC_URL}/list/${id}`}>
+                            <Link to={`/list/${id}`}>
                               <button
                                 className="example_b"
                                 align="center"

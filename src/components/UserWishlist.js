@@ -50,6 +50,7 @@ export default function UserWishlist() {
         });
       }
       res.data.wishes.forEach((one) => {
+        console.log(one);
         if (one.comments.length) {
           one.comments.reverse();
         }

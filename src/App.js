@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HashRouter, Switch, Route, HashRouter } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 // import Upload from "./components/Upload";
 import Header from "./components/Header";
 import StartPage from "./components/StartPage";
@@ -40,37 +40,19 @@ export default function App() {
   }, []);
   return (
     <>
-      <HashRouter basename={"/wishlist-react"}>
+      <HashRouter basename={`/`}>
         <Switch>
           {loggedIn ? (
-            <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+            <Route exact path={`/`} component={Home} />
           ) : (
-            <Route
-              exact
-              path={`${process.env.PUBLIC_URL}/`}
-              component={StartPage}
-            />
+            <Route exact path={`/`} component={StartPage} />
           )}
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/stargtpage`}
-            component={StartPage}
-          />
-          <Route path={`${process.env.PUBLIC_URL}/home`} component={Home} />
-          <Route
-            path={`${process.env.PUBLIC_URL}/register`}
-            component={Register}
-          />
-          <Route path={`${process.env.PUBLIC_URL}/login`} component={Login} />
-          <Route
-            path={`${process.env.PUBLIC_URL}/wishlist`}
-            component={UserWishlist}
-          />
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/list/:listId`}
-            component={SingleWishList}
-          />
+          <Route exact path={`/stargtpage`} component={StartPage} />
+          <Route path={`/home`} component={Home} />
+          <Route path={`/register`} component={Register} />
+          <Route path={`/login`} component={Login} />
+          <Route path={`/wishlist`} component={UserWishlist} />
+          <Route exact path={`/list/:listId`} component={SingleWishList} />
         </Switch>
       </HashRouter>
     </>

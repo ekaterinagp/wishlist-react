@@ -110,7 +110,11 @@ export default function Home() {
                   Welcome <br></br> {userData.name} {userData.lastName}
                 </h2>
 
-                <button className="example_b justify" onClick={profile}>
+                <button
+                  className="example_b justify"
+                  onClick={profile}
+                  to={`${process.env.PUBLIC_URL}/wishlist`}
+                >
                   My wish list
                 </button>
               </div>
@@ -160,7 +164,7 @@ export default function Home() {
                         </div>
                         <div className="button-read">
                           {loggedIn ? (
-                            <Link to={`/list/${id}`}>
+                            <Link to={`${process.env.PUBLIC_URL}/list/${id}`}>
                               <button
                                 className="example_b"
                                 align="center"

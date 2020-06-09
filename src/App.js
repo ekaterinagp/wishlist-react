@@ -20,7 +20,7 @@ export default function App() {
   const checkUserLoggedIn = async () => {
     if (token) {
       const tokenRes = await axios.post(
-        "http://localhost:9090/tokenIsValid",
+        "https://wish-back.herokuapp.com/tokenIsValid",
 
         {
           headers: {
@@ -40,7 +40,7 @@ export default function App() {
   }, []);
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={"/"}>
         <Switch>
           {loggedIn ? (
             <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />

@@ -46,7 +46,7 @@ export default function StartPage() {
         <div className="not-registered">
           <p>Not registered? Sign up</p>{" "}
           <BrowserRouter>
-            <Link to="/register" onClick={register}>
+            <Link to={`${process.env.PUBLIC_URL}/register`} onClick={register}>
               Sign up
             </Link>
           </BrowserRouter>

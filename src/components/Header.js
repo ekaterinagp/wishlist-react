@@ -64,7 +64,7 @@ export default function Header() {
   return (
     <>
       <Navbar color="dark" light expand="md" dark>
-        <NavbarBrand href="/">Wish list</NavbarBrand>
+        <NavbarBrand href={`${process.env.PUBLIC_URL}/`}>Wish list</NavbarBrand>
         <Nav className="mr-auto" className="mr-10" navbar>
           {token ? (
             <>

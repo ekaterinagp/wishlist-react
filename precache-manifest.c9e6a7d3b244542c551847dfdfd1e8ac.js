@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3bca41b46bd2c61b1013d5850ccfaee5",
+    "revision": "3f16d78a04fb267e3be9491577274a67",
     "url": "/wishlist-react/index.html"
   },
   {
-    "revision": "02c7a8c33fb224ed0e35",
+    "revision": "c71a1309727c0fde0b70",
     "url": "/wishlist-react/static/css/main.432ec038.chunk.css"
   },
   {
-    "revision": "052e76c0b35bdb1bd892",
-    "url": "/wishlist-react/static/js/2.bff0712d.chunk.js"
+    "revision": "89e7d00911150cc935a1",
+    "url": "/wishlist-react/static/js/2.e5c77d51.chunk.js"
   },
   {
     "revision": "49fe2bc6ca6e77e8e48c05ef1eac3fbf",
-    "url": "/wishlist-react/static/js/2.bff0712d.chunk.js.LICENSE.txt"
+    "url": "/wishlist-react/static/js/2.e5c77d51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02c7a8c33fb224ed0e35",
-    "url": "/wishlist-react/static/js/main.3a0f507b.chunk.js"
+    "revision": "c71a1309727c0fde0b70",
+    "url": "/wishlist-react/static/js/main.76880752.chunk.js"
   },
   {
     "revision": "c20c4ed3eb11ba4e5662",

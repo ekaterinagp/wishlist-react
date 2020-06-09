@@ -42,7 +42,7 @@ const UpdateUser = (props) => {
       if (updateUserData.data.message) {
         setError(updateUserData.data.message);
       } else {
-        history.push(`${process.env.PUBLIC_URL}/wishlist`);
+        history.push(`/wishlist`);
         props.fetchHandler();
         props.open(false);
       }

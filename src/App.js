@@ -40,7 +40,7 @@ export default function App() {
   }, []);
   return (
     <>
-      <BrowserRouter basename={"/"}>
+      <BrowserRouter basename={"/wishlist-react"}>
         <Switch>
           {loggedIn ? (
             <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />

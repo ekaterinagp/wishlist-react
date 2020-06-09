@@ -9,7 +9,7 @@ import "../css/home.css";
 export default function Home() {
   const [error, setError] = useState("");
   const history = useHistory();
-  const profile = () => history.push(`${process.env.PUBLIC_URL}/wishlist`);
+  const profile = () => history.push(`/wishlist`);
   let loggedIn = localStorage.getItem("id");
   const [userData, setUserData] = useState({
     name: "",

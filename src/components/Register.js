@@ -42,7 +42,7 @@ export default function Register() {
 
         localStorage.setItem("auth-token", loginRes.data.token);
         localStorage.setItem("id", loginRes.data.user.id);
-        history.push(`${process.env.PUBLIC_URL}/home`);
+        history.push(`/home`);
       }
     } catch (error) {
       console.log(error.message);

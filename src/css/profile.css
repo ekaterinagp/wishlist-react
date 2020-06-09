@@ -1,0 +1,122 @@
+.user-profile {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2em;
+}
+
+.form_update {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 16px;
+}
+
+#update_form.form-style-6 {
+  background-color: #bbc9d6 !important;
+}
+
+#details_update.form-style-6 {
+  background-color: #bbc9d6 !important;
+}
+
+.user-button-update {
+  font-size: inherit;
+}
+
+.delete-btn {
+  cursor: pointer;
+  float: right;
+  margin: 5px;
+}
+
+.alert {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  width: 20%;
+  height: 15%;
+  margin: 5% 0 50% 50%;
+  background-color: #343a40;
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+}
+
+.create-list {
+  padding: 2em;
+}
+
+.profile {
+  background-color: #bbc9d6;
+  height: 100%;
+}
+
+.user-details {
+  text-align: inherit;
+  padding: 2em;
+}
+
+.follow-number {
+  justify-self: end;
+}
+
+.followers {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.user-data {
+  padding-top: 3em;
+  font-size: 25px;
+}
+.middle-div-comments {
+  background-color: rgb(235, 232, 232);
+}
+.user-wishes {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-gap: 2em;
+  height: 100%;
+  padding-top: 2em;
+}
+
+.wish-img {
+  width: 100%;
+  height: auto;
+}
+.wish-div {
+  width: 100%;
+  height: 300px;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.input-firebase {
+  margin-left: 15px;
+  background-color: white;
+}
+
+.commentOne {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.toggle {
+  float: right;
+}
+
+.top-div-wish {
+  text-align: center;
+}
+
+.containerToggle {
+  margin-top: 5em;
+}
+
+.comment-author {
+  color: #007bff;
+}

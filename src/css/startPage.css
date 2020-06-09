@@ -1,0 +1,19 @@
+.start-container {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 3fr 4fr 3fr;
+  height: 100vh;
+  background-color: #bbc9d6;
+}
+
+.advice-part h2 {
+  color: #ec7e35;
+}
+
+/* .start-title {
+  padding-top: 20px;
+} */
+
+.top-part {
+  padding-top: 170px;
+}

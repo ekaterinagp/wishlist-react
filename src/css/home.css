@@ -1,0 +1,122 @@
+.articleContainer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-gap: 2em;
+  padding: 1em;
+  margin: 1em;
+}
+
+.navbar-expand-md {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+.mr-10.navbar-nav {
+  justify-self: end;
+}
+.justify {
+  width: 70%;
+  justify-self: center;
+}
+.welcome-top {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+.title-friends {
+  padding: 1em;
+}
+
+.to-log-in {
+  text-align: center;
+  padding: 20px;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+
+  height: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 2fr 2fr;
+}
+
+.no-wish {
+  text-align: center;
+  font-weight: bold;
+  padding: 2em;
+}
+
+.list-title {
+  text-align: center;
+  padding: 1rem;
+}
+.wishOne {
+  display: grid;
+  grid-template-rows: 0.5fr 2fr;
+  padding: 10px;
+}
+.wish-title {
+  font-weight: bold;
+  color: blue;
+}
+
+.not-follow {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  padding: 1em;
+}
+
+.welcome {
+  background-color: #bbc9d6;
+  height: 100%;
+}
+
+.float {
+  margin-left: 5em;
+}
+
+ul.mr-auto navbar-nav {
+  margin-left: 80% !important;
+}
+
+.article-home {
+  display: grid;
+  grid-template-rows: 2fr 2fr 2fr;
+  max-height: 20em;
+  /* height: fit-content; */
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  background: #f4f4f4;
+}
+
+.wishes-middle {
+  height: 120px;
+  overflow: hidden;
+}
+
+.div-follow {
+  display: grid;
+  justify-self: center;
+  margin-bottom: 10px;
+}
+
+.bottom-wrapper {
+  background-color: #d8d5d5;
+}
+
+.no-wishes {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.button-read {
+  display: grid;
+  justify-self: center;
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wishlist-react/static/css/main.432ec038.chunk.css",
+    "main.js": "/wishlist-react/static/js/main.df2edabf.chunk.js",
+    "main.js.map": "/wishlist-react/static/js/main.df2edabf.chunk.js.map",
+    "runtime-main.js": "/wishlist-react/static/js/runtime-main.8eb43bdd.js",
+    "runtime-main.js.map": "/wishlist-react/static/js/runtime-main.8eb43bdd.js.map",
+    "static/js/2.bff0712d.chunk.js": "/wishlist-react/static/js/2.bff0712d.chunk.js",
+    "static/js/2.bff0712d.chunk.js.map": "/wishlist-react/static/js/2.bff0712d.chunk.js.map",
+    "index.html": "/wishlist-react/index.html",
+    "precache-manifest.fdd5f2c136055fef9e90808a0f547410.js": "/wishlist-react/precache-manifest.fdd5f2c136055fef9e90808a0f547410.js",
+    "service-worker.js": "/wishlist-react/service-worker.js",
+    "static/css/main.432ec038.chunk.css.map": "/wishlist-react/static/css/main.432ec038.chunk.css.map",
+    "static/js/2.bff0712d.chunk.js.LICENSE.txt": "/wishlist-react/static/js/2.bff0712d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8eb43bdd.js",
+    "static/js/2.bff0712d.chunk.js",
+    "static/css/main.432ec038.chunk.css",
+    "static/js/main.df2edabf.chunk.js"
+  ]
+}

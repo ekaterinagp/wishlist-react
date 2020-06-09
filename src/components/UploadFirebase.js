@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { storage } from "./firebase-config";
 import { firebase } from "./firebase-config";
 import "../css/profile.css";
-import uui from "uuidv4";
+
 import axios from "axios";
 
 const UploadFirebase = (props) => {

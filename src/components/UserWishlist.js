@@ -35,7 +35,7 @@ export default function UserWishlist() {
     setInit(false);
 
     const res = await axios
-      .get(`https://wish-back.herokuapp.com/${userId}`)
+      .get(`https://wish-back.herokuapp.com/user/${userId}`)
       .catch((error) => console.log(error));
     console.log(res);
     if (res.data.wishes) {
